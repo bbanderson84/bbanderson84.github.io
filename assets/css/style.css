@@ -1,0 +1,345 @@
+
+
+body {
+    background-image: url("../images/confectionary.png");
+    
+}
+
+header {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    border-bottom:2px solid #cccccc;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+
+}
+
+
+.Name {
+    float: left;
+    margin-top: 0%;
+    margin-left: 265px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 80px;
+    z-index: 2;
+    
+}
+
+.Tab1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    float: right;
+    background-color: #ffffff;
+    color: #777777;
+    position: absolute;
+    right: 370px;
+    top: 25px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.Tab2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    float: right;
+    background-color: #ffffff;
+    color: #777777;
+    position: absolute;
+    right: 450px;
+    top: 25px;
+    z-index: 1;
+
+}
+
+.Tab3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    float: right;
+    background-color: #ffffff;
+    color: #777777;
+    position: absolute;
+    right: 280px;
+    top: 25px;
+    z-index: 1;
+
+}
+
+.background {
+    z-index: 0;
+}
+
+.wrapper {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding: 100px 200px 112px 250px;
+    z-index: 1;
+
+
+}
+
+.content {
+    width: 960px;
+    height: 600px;
+    margin-left: 15px;
+    margin-top: -40px;
+    position: relative;
+    border-top: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    background: #ffffff;
+    z-index: 1;
+
+}
+
+.title {
+    float: left;
+    position: relative;
+    padding: 15px 15px 5px 20px;
+    color: #4aaaa5;
+    z-index: 1;
+    width: 100%;
+   
+
+}
+
+#Contact {
+    border-bottom: 3px solid #cccccc;
+    height: 100px;
+  
+}
+
+
+
+.paragraph {
+    padding: 25px 10px 10px 10px;
+    position: relative;
+    float: left;
+    border-top: 3px solid #cccccc;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    
+}
+
+#font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#pic { 
+    position: relative;
+    float: left;
+    padding: 0px 10px 0px 0px;
+
+}
+
+#Name1 {
+    margin-left: 20px;
+    margin-top: 80px;
+    
+}
+
+.NameTextBox {
+    clear: both;
+    overflow: auto;
+    width: 95%;
+    box-align: center;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+#Email {
+    margin-left: 20px;
+    
+}
+
+.EmailTextBox {
+    clear: both;
+    overflow: auto;
+    width: 95%;
+    box-align: center;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+#Message {
+    margin-left: 20px;
+   
+}
+
+#MessageTextBox {
+    clear: both;
+    overflow: auto;
+    width: 95%;
+    box-align: center;
+    text-align:top;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+   
+    
+}
+
+#button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 20px;
+  
+}
+
+#Portfolio {
+
+    border-bottom: 3px solid #cccccc;
+    height: 100px;
+  
+}
+
+
+.portfolio-item {
+    width: 216px;
+    position: relative;
+
+
+}
+.portfolio-image {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#Hangman {
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#Hangmantag {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    margin: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+#PGgame {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#gamertag {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    margin: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+#TriviaGame {
+    margin-left: 20px;
+    top: 60px;
+}
+
+#TriviaGametag {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    margin: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+#RutgersInfoWidget {
+    margin-left: 265px;
+    bottom: 100px;
+    float: left;
+}
+
+#RutgersInfotag {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    margin: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+#RockPaperScissors {
+    float: left;
+    bottom: 324px;
+    left: 30px;
+
+}
+
+#RockPapertag {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    margin: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+  
+.footer {
+    background: #666666;
+    position: fixed;
+    border-top: 7px solid #4aaaa5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
